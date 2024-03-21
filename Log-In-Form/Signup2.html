@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Skill-IT Ghana | Sign Up</title>
+    <link rel="stylesheet" href="./Signup2.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="left-side">
+            <img src="./assets/Group 19.png" alt="Image" id="image">
+        </div>
+
+        <div class="right-side">
+            <h1>Welcome to Skillit Gh ! Create an account.</h1>
+            <form method="POST" action="Signup.db" class="sign-up_form">
+             <label for="">First Name <span class="ast">*</span></label>
+             <input type="text" name="first_name"  autofocus required>
+
+             <label for="">Last Name<span class="ast">*</span> </label>
+             <input type="text" name="last_name"  autofocus required>
+            
+             <label for="">Phone Number<span class="ast">*</span></label>
+             <input type="tel" name="phone"  autofocus required>
+
+             <label for="">Email <span class="ast">*</span></label>
+             <input type="email" name="email" autofocus required>
+             
+             <label for="">Password <span class="ast">*</span></label>
+             <input type="password" name="password" autofocus required>
+
+             <label for="">Confirm Password <span class="ast">*</span></label>
+             <input type="password" name="confirm_password" autofocus required>
+
+             <button type="submit" class="signup-btn">Sign Up</button>                      
+             <button type="button" class="google-signup-btn">Sign Up with Google</button>
+             <span id="login-text">Already have an account? <a href="Login.html">Login</a></span>
+
+            </form>
+        </div>
+    </main> 
+</body>
+</html>

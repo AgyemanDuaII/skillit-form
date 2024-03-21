@@ -1,0 +1,96 @@
+
+body {
+    background-color: #E2FFFD;
+}
+
+.container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;  
+}
+
+h1 {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.ast {
+    color: red;
+}
+
+.right-side {
+    flex:1;
+    padding: 20px;
+}
+
+.left-side {
+    flex: 1;
+    background-position: center;
+}
+
+#image {
+    width: 30rem;
+}
+
+input[type="text"], input[type="email"] {
+    display: block;
+    width: 65%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #85DFDA;
+    border-radius: 5px;
+}
+
+input[type="tel"], input[type="password"] {
+    display: block;
+    width: 65%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #85DFDA;
+    border-radius: 5px;
+}
+
+button {
+    display: block;
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #85DFDA;
+    border-radius: 5px; 
+}
+
+.signup-btn {
+    background-color: #85DFDA;
+    color: #ffff;
+    border: none;
+    padding: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.google-signup-btn {
+    background-color: #85DFDA;
+    background-image: url('./assets/Group\ 5.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+    padding-top:20px ;
+    padding-bottom: 20px;
+    padding-right: -5px;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+span a {
+    text-decoration: none;
+    color: #34827D;
+}
+
+#login-text {
+    color: #34827D;
+}
+
+

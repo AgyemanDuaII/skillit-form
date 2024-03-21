@@ -1,0 +1,114 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-side {
+    flex: 1;
+    background-position: center;
+}
+
+.right-side img {
+    width: 30rem;
+    height: 42rem;
+}
+
+.left-side img {
+ width: 10rem;
+}
+
+.signup-form {
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="email"], button {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #85DFDA;
+    border-radius: 5px;
+}
+
+input[type="tel"], input[type="password"], button {
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #85DFDA;
+    border-radius: 5px;
+}
+
+input:focus, button:focus {
+    outline: none;
+    border-color: gold;
+}
+
+.signup-btn {
+    background-color: #85DFDA;
+    color: #000;
+    border: none;
+    padding: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+ .google-signup-btn {
+    background-color: #85DFDA;
+    background-image: url('./assets/Group\ 5.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    color: #000;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.signup-btn:hover, .google-signup-btn:hover {
+    background-color: #007799;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-side {
+        order: 2;
+        text-align: center;
+    }
+
+    .right-side {
+        order: 1;
+        height: 300px; /* Adjust height as needed */
+    }
+
+    .right-side img {
+     display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+    .signup-form {
+        width: 90%;
+        max-width: 300px;
+    }
+}
+
