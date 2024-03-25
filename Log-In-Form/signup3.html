@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="Login.css">
-        <title>SKILLIT GH LOGIN</title>
+        <link rel="stylesheet" href="signup3.css">
+        <title>SKILLIT GH SIGNUP</title>
     </head>
 
     <body> 
@@ -13,16 +13,26 @@
         </div>
 
         <div class="login-container">
-            <h4 style="color: #022c33;">Hi there! Sign in to your account</h4>
+            <h4 style="color: #022c33;">Welcome to Skillit GH ! Create an account</h4>
             <br>
             <form action="#" method="post">
-                Email/Phone Number *
-                <input type="email" name="Email" placeholder="" required>
+                First Name *
+                <input type="text" name="First Name" placeholder="" required>
                 <br>
+                Last Name *
+                <input type="text" name="Last Name" placeholder="" required>
+                <br>
+                Phone Number *
+                <input type="number" name="Phone Number" placeholder="" required>
+                <br>
+                Email *
+                <input type="email" name="Email" placeholder="" required>
                 <br>
                 Password *
                 <input type="password" name="password" placeholder="" minlength="8" required>
-                <p style="font-size: x-small;">Forgot your password?</p>
+                <br>
+                Confirm Password *
+                <input type="password" name="Confirm Password" placeholder="" required>
                 <br>
 
                 <input type="submit" value="Sign Up"><br>
@@ -32,7 +42,8 @@
                         SignUp with Google
                     </button>
                 </div>
-
+                <br>
+                <p style="color: #022c33;">Already have an account? Login</p>
             </form>
         </div>
         

@@ -2,26 +2,34 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
     background-color: powderblue;
     padding: 0;
     display: flex;
     justify-content: right;
     align-items: right;
-    height: 60vh;
     margin-right: 12%;
-    margin-top: 12%;
+    margin-top: 3%;
+    height: 75vh;
+    background-size: 20px 20px;
 }
 
+ 
+
 .login-container{
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;  
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    background-color: #96dae3;
+    background-size: 5px;
+    
 }
 
 
 input[type="email"],
 input[type="text"],
+input[type="number"],
 input[type="password"],
 input[type="submit"] {
     width: 100%;
@@ -30,6 +38,8 @@ input[type="submit"] {
     display: inline-block;
     box-sizing: border-box;
     border: 1px solid#ccc;
+    font-size: small;
+    heaight 50%
 }
 
 input[type="submit"] {
@@ -69,7 +79,8 @@ input[type="submit"]:hover {
 }
 
 .skill-img {
-    margin-right: 150px;
+    margin-right: 200px;
     margin-bottom: 100px;
+    margin-top: 5%;
 }
 
